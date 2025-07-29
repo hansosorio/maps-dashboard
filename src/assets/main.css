@@ -1,0 +1,18 @@
+/* src/assets/main.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add any custom global styles here, e.g., for accessibility */
+/* Ensure high contrast for text by default */
+body {
+  color: #1a202c; /* A dark gray for good contrast */
+  background-color: #f7fafc; /* A light off-white */
+}
+
+/* Focus styles for accessibility */
+*:focus-visible {
+  outline: 3px solid #3182ce; /* Blue outline for visibility */
+  outline-offset: 2px;
+}
