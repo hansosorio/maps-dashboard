@@ -23,8 +23,7 @@ This project is a modern, interactive web dashboard designed to visualize geospa
 - **Dynamic Map Controls:** Toggle visibility of:
   - Kilometer Points
   - Influence Circles
-  - Points of Interest (POIs)
-- **Advanced Markers:** Utilizes `google.maps.marker.AdvancedMarkerElement` for performant and customizable map markers.
+  - Points of Interest
 - **Street View Integration:** View Street View panoramas for clicked map points.
 - **Information Windows:** Displays detailed information about clicked map elements (markers, circles).
 - **Data Visualization Widgets:**
@@ -54,8 +53,8 @@ You will also need a **Google Maps JavaScript API Key** with the following servi
 
 1.  **Clone the repo:**
     ```bash
-    git clone [https://github.com/](https://github.com/)[YOUR_GITHUB_USERNAME]/[YOUR_PROJECT_NAME].git
-    cd [YOUR_PROJECT_NAME]
+    git clone [https://github.com/](https://github.com/hansosorio/maps-dashboard/)
+    cd maps-dashboard
     ```
 2.  **Install NPM packages:**
     ```bash
